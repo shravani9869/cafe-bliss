@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Bliss | Coffee & More</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">☕ Cafe Bliss</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">FRESH COFFEE • GOOD VIBES</p>
+            <h1>Start Your Day<br>With A Perfect Coffee</h1>
+            <p>Discover your favourite coffee and enjoy every sip.</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Welcome to Cafe Bliss</h2>
+        <p>
+            We serve freshly brewed coffee, delicious snacks
+            and unforgettable moments. Your perfect coffee
+            break starts here!
+        </p>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>Our Special Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500" alt="Iced coffee">
+                <h3>Cold Coffee</h3>
+                <p>₹149</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500" alt="Hot coffee">
+                <h3>Hot Cappuccino</h3>
+                <p>₹129</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500" alt="Latte">
+                <h3>Classic Latte</h3>
+                <p>₹159</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Visit Us Today!</h2>
+        <p>Good coffee, great conversations and happy moments.</p>
+        <a href="mailto:hello@cafebliss.com" class="btn">Contact Us</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Cafe Bliss. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
